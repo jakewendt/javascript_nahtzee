@@ -1,0 +1,83 @@
+/* override defaults */
+
+div#background,
+div#container {
+	background-color: green;
+}
+.topbar {
+	background-color: white;
+}
+
+/* yahtzee stuff */
+div#yahtzee_board {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+div#card {
+	float:left;
+}
+div#card table#score_card {
+	width: auto;
+}
+div#card table#score_card tr td {
+	text-align:center;
+	width: 8ex;
+}
+div#card table#score_card tr td:first-of-type {
+	text-align:left;
+	width: 22ex;
+}
+div#card table#score_card tr td:first-of-type span:last-of-type {
+	float:right;
+}
+div#misc {
+	float:left;
+}
+div#dice {
+	margin-left:5px;
+}
+img.die {
+	display: block;
+	width:  80px;
+	height: 80px;
+	margin: 10px;
+}
+div.die {
+	width: 100px;
+	height: 150px;
+	margin: 5px;
+	float:left;
+	background-color:#EEE;
+}
+div.die.frozen {
+	background-color:#DDD;
+}
+span.keep {
+	display:none;
+	text-align:center;
+	font-weight:bold;
+	padding:1ex;
+	font-size:16pt;
+}
+span.click {
+	display:block;
+	text-align:center;
+	padding:1ex;
+	font-size:12pt;
+	color:#888;
+}
+div.die.frozen span.keep {
+	display:block;
+}
+div.die.frozen span.click {
+	display:none;
+}
+
+
+div#control {
+	margin: 10ex;
+}
+div#control * {
+	font-size:30pt;
+}
