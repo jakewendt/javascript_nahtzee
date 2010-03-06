@@ -53,7 +53,7 @@ function Dice(dice_options){
 	function update_dice() {
 		$.each(die, function(index,element){
 			$(options.board_tag+" div.die#die_"+index).html(
-				"<img class='die' src='/images/dice/Dice-"+element.value()+".png'/>" + 
+				"<img class='die' src='dice/Dice-"+element.value()+".png'/>" + 
 				"<span class='click'>Click to keep</span>" +
 				"<span class='keep'>Keep</span>"
 			);
