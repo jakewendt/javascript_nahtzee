@@ -1,6 +1,6 @@
 = Nahtzee
 
-A single player javascript game very much like, but NOT Yahtzee.  
+A single player javascript game very much like, but NOT, Yahtzee.  
 
 And yes, now that I've actually listened to myself say it, the name is probably going to offend.
 
